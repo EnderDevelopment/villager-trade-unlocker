@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "villagertradeunlockermod",
+  "version": "1.0.0",
+  "name": "Villager Trade Unlocker",
+  "description": "Unlocks all villager trades immediately",
+  "authors": ["sadik31388"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.sadik31388.villagertradeunlockermod.VillagerTradeUnlockerMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.21.4",
+    "java": ">=17"
+  }
+}
